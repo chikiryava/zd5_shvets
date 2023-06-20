@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App2.Start"
+             StyleClass="contentpage">
+
+    <ContentPage.Resources >
+        <StyleSheet Source="/mystyles.css" />
+    </ContentPage.Resources>
+
+    <StackLayout Orientation="Vertical" HorizontalOptions="Center">
+        <StackLayout Orientation="Horizontal" HorizontalOptions="Center">
+            <Label x:Name="header" StyleId="header" Text="Welcome"/>
+        </StackLayout>
+        <StackLayout Orientation="Horizontal" HorizontalOptions="Center">
+            <Entry x:Name="Login" Placeholder="Username" StyleId="entry" HorizontalOptions="Center" WidthRequest="400"/>
+        </StackLayout>
+        <StackLayout Orientation="Horizontal" HorizontalOptions="Center">
+            <Entry x:Name="Password" Placeholder="Password" StyleId="entry" HorizontalOptions="Center" WidthRequest="400"/>
+        </StackLayout>
+        <StackLayout Orientation="Horizontal" HorizontalOptions="Center">
+            <Button x:Name="LogButton" StyleId="button" Text="Sign In" WidthRequest="400" Clicked="LogButton_Clicked"/>
+        </StackLayout>
+        <StackLayout Orientation="Horizontal" >
+            <CheckBox x:Name="CheckBox" Margin="0,0,0,0" HorizontalOptions="Center" Color="White"/>
+            <Label Text="Remember Me" Margin="0,5,0,0" HorizontalOptions="Center"/>
+            <Label Text="I forgot!" Margin="215,5,0,0"/>
+        </StackLayout>
+        
+    </StackLayout>
+
+
+</ContentPage>

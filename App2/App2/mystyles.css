@@ -1,0 +1,35 @@
+﻿^contentpage {
+    background-color: slategray;
+}
+
+#header {
+    margin:90;
+    font-size:25;
+    font-weight:900;
+}
+
+#entry {
+    background-color: white;
+    border-radius: initial 10;
+    color: black;    
+}
+
+#button {
+    margin-top: 30;
+    background-color: red;
+    color:white;
+}
+
+#else {
+    color:black;
+}
+
+label {
+    color: white;
+    font-size: 18;
+}
+
+.LabelTextColor {
+    color: black;
+}
+
